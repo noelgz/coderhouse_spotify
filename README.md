@@ -47,9 +47,15 @@ Para poder instalar las dependencias del Proyecto situadas en pyproject.toml:
 
 _Se debe situarse dentro de la carpeta del proyecto y ejecutar lo siguiente:
 
+**Instalación de las dependencias:**
+
 ```
-Instalación de las dependencias -> poetry install
-Para activar el entorno virtual -> poetry shell
+poetry install
+```
+
+**Activar entorno Virtual:**
+```
+poetry shell
 ```
 
 ## Despliegue 📦
