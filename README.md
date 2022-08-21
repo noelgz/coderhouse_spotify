@@ -78,4 +78,4 @@ Como mejoras futuras para estre proyecto propongo:
 
 
 ---
-⌨️ con ❤️ por [Noel Gonzalez](https://github.com/noelgz) 😊
+⌨️ Por [Noel Gonzalez](https://github.com/noelgz) 😊
