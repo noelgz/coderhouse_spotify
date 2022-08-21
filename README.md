@@ -8,7 +8,7 @@ La idea del Proyecto es recolectar toda la información de las canciones y de to
 **Hipotesis:**
 Se asume que el género que más abunda en mi Spotify es el Rock alternativo y el Hip Hop.
 
-**Resultado comprobación de Hipotesis: Negativo.** El genero que más abunda en mis playlist es "Trap Latino".
+**Resultado comprobación de Hipotesis: NEGATIVO.** El genero que más abunda en mis playlist es "Trap Latino".
 
 **Resultado del Proyecto:**
 Genre             Cant
