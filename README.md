@@ -13,8 +13,8 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 Para que el programa pueda funcionar correctamente se necesita instalar poetry en su máquina local, junto con Python, y PostgreSQL
 
-[Instalación de Poetry](https://python-poetry.org/docs/)
-[Documentación Poetry](https://python-poetry.org/docs/basic-usage/)
+* [Instalación de Poetry](https://python-poetry.org/docs/)
+* [Documentación Poetry](https://python-poetry.org/docs/basic-usage/)
 
 ## Configuración 📌
 
