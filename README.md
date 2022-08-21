@@ -2,6 +2,22 @@
 
 Este proyecto es el trabajo integrador final del Curso de Python que se brindó en la plataforma de Coderhouse. El mismo integra todos los conocimientos adquiridos durante el journey del curso.
 
+## Idea del Proyecto 💡
+La idea del Proyecto es recolectar toda la información de las canciones y de todas las listas de reproducción del usuario, en este caso, de mi cuenta de Spotify. Luego de recolectar toda esa metadata, verificar cuál es el genero que mas abunda dentro de todas las listas de Reproducción que tengo. Posteriormente almacenar todos los datos recolectados a un Bucket de S3 y a una base de datos PostgreSQL.
+
+**Hipotesis:**
+Se asume que el género que más abunda en mi Spotify es el Rock alternativo y el Hip Hop.
+
+**Resultado comprobación de Hipotesis: Negativo. ** El genero que más abunda en mis playlist es "Trap Latino".
+
+**Resultado del Proyecto:**
+Genre             Cant
+trap latino        184
+cumbia villera      97
+rock                89
+permanent wave      87
+spanish hip hop     86
+
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
