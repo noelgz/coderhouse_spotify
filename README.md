@@ -33,12 +33,12 @@ Para ejecutar el proyecto completo, se deberá comentar la variable que contiene
 
 ### Instalación 🔧
 
-**Clonar el repositorio: ** 
+**Clonar el repositorio:** 
 ```
 git clone https://github.com/noelgz/coderhouse_spotify.git
 ```
 
-**Ingresar al proyecto: **
+**Ingresar al proyecto:**
 ```
 cd coderhouse_spotify/
 ```
