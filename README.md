@@ -1,6 +1,6 @@
-# Título del Proyecto
+# Spotify Playlist para Coderhouse
 
-_Acá va un párrafo que describa lo que es el proyecto_
+Este proyecto es el trabajo integrador final del Curso de Python que se brindó en la plataforma de Coderhouse. El mismo integra todos los conocimientos adquiridos durante el journey del curso.
 
 ## Comenzando 🚀
 
@@ -11,96 +11,71 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Para que el programa pueda funcionar correctamente se necesita instalar poetry en su máquina local, junto con Python, y PostgreSQL
 
-```
-Da un ejemplo
-```
+[Instalación de Poetry](https://python-poetry.org/docs/)
+[Documentación Poetry](https://python-poetry.org/docs/basic-usage/)
+
+## Configuración 📌
+
+Se deberán configurar las KEYS de accesso para todos los serivios que se utilizarán. Dicha configuración se deberá realizar sobre el archivo **secrets_key.json**.
+
+Para obtener las credenciales de Spotify, es necesario registrarse como desarrollador y crear algún proyecto de prueba
+[Dashboard Spotify Developer](https://developer.spotify.com/dashboard/applications)
+
+
+## ADVERTENCIA 📢
+El proyecto completo tarda en ejecutarse completo alrededor de 30 minutos, dependiendo de la cantidad de playlist que el usuario tenga AGREGADOS A SU PERFIL (Para agregar alguno en los tres puntitos y click en agregar al perfil).
+
+Para este caso de ejemplo, solamente se trabaja con un playlist predefinida para que el proyecto no demore tanto su ejecución y tarde menos de 1 minuto.
+
+Para ejecutar el proyecto completo, se deberá comentar la variable que contiene una lista(playlist_ids) dentro de la función **getFeaturesSongForPlaylist()** que se encuentra aproximadamente en la linea 146 del código principal.
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+Para poder instalar las dependencias del Proyecto situadas en pyproject.toml:
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
+_Se debe situarse dentro de la carpeta del proyecto y ejecutar lo siguiente:
 
 ```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
+Instalación de las dependencias -> poetry install
+Para activar el entorno virtual -> poetry shell
 ```
 
 ## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+Una vez que se encuentre dentro del entorno virtual de poetry solamente resta ejecutar:
+
+```
+python spotipy_proyect_coder.py
+```
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+Las herramientas que se utilizaron en el proyecto son:
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [Poetry](https://python-poetry.org/) - Para gestionar las librerías y sus dependencias
+* [Spotipy](https://spotipy.readthedocs.io/en/master/) - Librería para hacer las conexión con Spotify y consumir datos
 
-## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+## Mejoras futuras 📖
 
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+Como mejoras futuras para estre proyecto propongo:
+* Mejorar el tiempo de ejecución del proyecto completo.
+* Hacer una refactorización mejoradas ya que existen diferentes aspectos que pueden ser mejorados.
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+* **Noel Gonzalez** - *Trabajo Final* - [Noel Gonzalez](https://github.com/noelgz)
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-* etc.
+* Gracias a NX por permitirme realizar este curso
+* Invitamos una cerveza 🍺 o un café ☕ a todo el equipo de Coder que estuvo día a día agregandome conocimiento. 
+* Gracias totales.
 
 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por [Noel Gonzalez](https://github.com/noelgz) 😊
