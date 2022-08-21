@@ -23,6 +23,9 @@ Se deberán configurar las KEYS de accesso para todos los serivios que se utiliz
 Para obtener las credenciales de Spotify, es necesario registrarse como desarrollador y crear algún proyecto de prueba
 [Dashboard Spotify Developer](https://developer.spotify.com/dashboard/applications)
 
+Además se deberá configurar, dentro del script principal, el ID del usuario dentro de Spotify:
+_SPOTIFY_USER_ID = <TU_USER_ID> (por ejemplo: **noel.argonzalez** que es el mio)
+
 
 ## ADVERTENCIA 📢
 El proyecto completo tarda en ejecutarse completo alrededor de 30 minutos, dependiendo de la cantidad de playlist que el usuario tenga AGREGADOS A SU PERFIL (Para agregar alguno en los tres puntitos y click en agregar al perfil).
