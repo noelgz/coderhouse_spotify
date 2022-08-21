@@ -11,7 +11,7 @@ import psycopg2
 from sqlalchemy import create_engine
 
 
-_SPOTIFY_USER_ID = 'noel.argonzalez'
+_SPOTIFY_USER_ID = '<TU_SPOTIFY_USER_ID>'
 _EXPORT_FILENAME = 'spotify_features_songs_cleaned.csv'
 
 def getAccessKeys(service):
