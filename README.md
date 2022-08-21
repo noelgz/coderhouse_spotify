@@ -11,12 +11,20 @@ Se asume que el género que más abunda en mi Spotify es el Rock alternativo y e
 **Resultado comprobación de Hipotesis: NEGATIVO.** El genero que más abunda en mis playlist es "Trap Latino".
 
 **Resultado del Proyecto:**
+
+
 Genre             Cant
+
 trap latino        184
+
 cumbia villera      97
+
 rock                89
+
 permanent wave      87
+
 spanish hip hop     86
+
 
 ## Comenzando 🚀
 
