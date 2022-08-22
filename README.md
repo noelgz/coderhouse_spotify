@@ -96,6 +96,7 @@ Las herramientas que se utilizaron en el proyecto son:
 
 * [Poetry](https://python-poetry.org/) - Para gestionar las librerías y sus dependencias
 * [Spotipy](https://spotipy.readthedocs.io/en/master/) - Librería para hacer las conexión con Spotify y consumir datos
+* [Python](https://www.python.org/) - Lenguaje de programación
 
 
 ## Mejoras futuras 📖
