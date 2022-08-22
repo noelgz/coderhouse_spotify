@@ -14,11 +14,17 @@ Se asume que el género que más abunda en mi Spotify es el Rock alternativo y e
 
 
 | Genre |         Cant|
+| ----- | ---- |
 |trap latino |       184|
+| ----- | ---- |
 |cumbia villera |     97|
+| ----- | ---- |
 |rock   |             89|
+| ----- | ---- |
 |permanent wave |     87|
+| ----- | ---- |
 |spanish hip hop |    86|
+
 
 
 ## Comenzando 🚀
