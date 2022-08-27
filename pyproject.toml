@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "test for postgres"
+name = "Coderhouse Project"
 version = "0.1.0"
 description = ""
 authors = ["Noel Gonzalez <noel.gonzalez@naranja.com>"]
